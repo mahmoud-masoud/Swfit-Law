@@ -19,7 +19,7 @@ const Footer = () => {
     <footer className='bg-dark text-blue-50 py-20'>
       <Wrapper>
         <nav className=' flex flex-col md:flex-row gap-12 justify-between '>
-          <div className='flex  items-center flex-col gap-2 '>
+          <div className='flex  md:items-center flex-col gap-2 w-fit'>
             <span className='text-xl font-semibold'>
               <Logo className='fill-secondary' />
             </span>
