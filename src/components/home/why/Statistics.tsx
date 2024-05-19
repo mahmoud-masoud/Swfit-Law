@@ -4,17 +4,17 @@ const Statistics = () => {
       <div className='relative flex flex-col md:flex-row justify-between gap-14 md:gap-20 '>
         <span className='absolute h-full w-[.7px] bg-slate-400/50 right-1/2 max-md:hidden'></span>
         <div className='flex-1 flex flex-col gap-8 md:max-w-md'>
-          <span className='text-6xl md:text-7xl font-black text-secondary'>
-            95%
+          <span className='text-6xl md:text-7xl font-black text-bright-gold'>
+            97%
           </span>
           <p className='text-lg text-white'>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus
-            mollitia perspiciatis fuga iusto voluptatum cumque nostrum sunt
-            illo, expedita esse aliquid eos ex nisi natus delectus dolores
-            inventore aut molestiae.
+            Our law firm wins 97% of our cases. With a skilled team and proven
+            track record, we are dedicated to achieving the best results for our
+            clients. Trust us to handle your legal needs with confidence and
+            expertise. Let us guide you through every step of the legal process.
           </p>
           <button
-            className='bg-secondary px-4 py-2 rounded-lg text-lg
+            className='bg-secondary hover:bg-secondary/90 duration-200 px-4 py-2 rounded-lg text-lg
            font-medium text-white tracking-wide'
           >
             Book a free consultation
@@ -24,21 +24,21 @@ const Statistics = () => {
         <div className='relative flex-1 md:max-w-sm flex flex-col justify-between gap-10'>
           <span className='absolute w-full h-[.7px] bg-slate-400/50 top-1/2'></span>
           <div>
-            <span className='text-4xl font-bold text-secondary mb-4 inline-block'>
+            <span className='text-4xl font-bold text-bright-gold mb-4 inline-block'>
               +10
             </span>
             <p className='text-white'>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit
-              odit fugiat porro!
+              Ten years of trusted legal advocacy - Swift Law is here to guide
+              you through every step of your journey
             </p>
           </div>
           <div>
-            <span className='text-4xl font-bold text-secondary mb-4 inline-block'>
+            <span className='text-4xl font-bold text-bright-gold mb-4 inline-block'>
               +500
             </span>
             <p className='text-white'>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit
-              odit fugiat porro!
+              With over 500 clients served in the past decade, Swift Law
+              continues to provide trusted and expert legal representation.
             </p>
           </div>
         </div>

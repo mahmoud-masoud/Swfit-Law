@@ -27,7 +27,7 @@ const Navbar = () => {
       <nav className='hidden md:flex justify-between items-center py-1'>
         <Logo />
         <div className='flex items-center gap-10'>
-          <ul className='flex gap-4 text-slate-800'>
+          <ul className='flex gap-4 text-slate-800 text-lg font-medium'>
             {navLinks.map((item) => {
               return (
                 <li key={item.path}>
@@ -45,7 +45,7 @@ const Navbar = () => {
           <Link
             href={'/contact'}
             className='inline-block py-3 px-6 rounded-lg bg-primary
-           hover:bg-primary/85 duration-200 text-white font-medium'
+           hover:bg-primary/85 duration-200 text-white font-medium text-lg'
           >
             Contact Us
           </Link>

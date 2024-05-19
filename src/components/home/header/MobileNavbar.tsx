@@ -84,9 +84,9 @@ const SidNavar = ({ onClose }: { onClose: () => void }) => {
         animate={{ opacity: 1, x: 0 }}
         exit={{ opacity: 0, x: '100%' }}
         transition={{ type: 'just', duration: 0.2 }}
-        className='flex items-center flex-col max-md:max-w-80 max-md:w-full
-gap-10 bg-white fixed bottom-0 top-0 max-md:py-12 border-slate-400 
-max-md:border-l right-0'
+        className='flex flex-col max-w-80 w-full
+gap-10 bg-white fixed bottom-0 top-0 py-28 items-center border-slate-400 text-lg font-medium 
+border-l right-0'
       >
         <ul className='flex flex-col gap-4 text-slate-800'>
           {navLinks.map((item) => {
@@ -95,7 +95,7 @@ max-md:border-l right-0'
                 <Link
                   href={item.path}
                   onClick={onClose}
-                  className='p-4 inline-block hover:bg-blue-50'
+                  className='p-4 inline-block hover:bg-blue-50 '
                 >
                   {item.name}
                 </Link>
@@ -107,7 +107,7 @@ max-md:border-l right-0'
         <Link
           href={'/contact'}
           onClick={onClose}
-          className='inline-block py-3 px-6 rounded-lg bg-primary
+          className='inline-block py-3 px-6 rounded-lg bg-primary w-fit
 hover:bg-primary/85 duration-200 text-white font-medium'
         >
           Contact Us

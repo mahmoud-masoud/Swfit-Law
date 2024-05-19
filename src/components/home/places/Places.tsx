@@ -1,19 +1,40 @@
 import Wrapper from '@/components/ui/Wrapper';
 import PlaceCard from './PlaceCard';
+import London from '@/assets/icons/London';
+import Cairo from '@/assets/icons/Cairo';
+import NewJersey from '@/assets/icons/NewJersey';
+import Dubai from '@/assets/icons/Dubai';
 
 const Places = () => {
   return (
     <section className='py-20'>
       <Wrapper>
-        <h2 className='font-medium text-4xl font-serif text-primary mb-10'>
+        <h2 className='font-medium text-4xl font-serif text-primary mb-16'>
           Where to find us
         </h2>
 
-        <div className='flex justify-between gap-10 flex-wrap'>
-          <PlaceCard city='Cairo' path='/' image='/cairo.jpg' />
-          <PlaceCard city='London' path='/' image='/london.jpg' />
-          <PlaceCard city='Dubai' path='/' image='/dubai.jpg' />
-          <PlaceCard city='New York' path='/' image='/new-york.jpg' />
+        <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-10'>
+          <PlaceCard
+            city='Cairo'
+            location='42 Nile Avenue, Sphinx District, Cairo
+            '
+            icon={<Cairo />}
+          />
+          <PlaceCard
+            city='London'
+            location='39 Maple Street, Southwark, London, UK'
+            icon={<London />}
+          />
+          <PlaceCard
+            city='Dubai'
+            location='22 Golden Sands Boulevard, Dubai Marina, Dubai'
+            icon={<Dubai />}
+          />
+          <PlaceCard
+            city='New Jersey'
+            location='95 Third Avenue, 14th Floor New York, NY 10022'
+            icon={<NewJersey />}
+          />
         </div>
       </Wrapper>
     </section>

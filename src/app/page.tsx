@@ -8,17 +8,15 @@ import Why from '@/components/home/why/Why';
 
 const Home = () => {
   return (
-    <>
-      <main>
-        <Hero />
-        <Brief />
-        <Services />
-        <Places />
-        <Why />
-        <Reviews />
-        <HomeContact />
-      </main>
-    </>
+    <main>
+      <Hero />
+      <Brief />
+      <Services />
+      <Places />
+      <Why />
+      <Reviews />
+      <HomeContact />
+    </main>
   );
 };
 export default Home;

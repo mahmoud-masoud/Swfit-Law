@@ -89,9 +89,16 @@ const Services = () => {
   return (
     <section className='py-20 relative bg-slate-50'>
       <Wrapper>
-        <h2 className='text-5xl font-medium font-serif text-primary mb-16'>
-          Practice Areas
-        </h2>
+        <div className='mb-8 md:mb-16 max-w-2xl'>
+          <h2 className='text-5xl font-medium font-serif text-primary mb-8'>
+            Practice Areas
+          </h2>
+          <p className='text-lg'>
+            Discover our diverse legal services tailored to your needs. Our
+            skilled attorneys offer expert guidance and effective solutions
+            across various fields of law.
+          </p>
+        </div>
         <div className='grid  md:grid-cols-2 lg:grid-cols-3 gap-8 gap-y-10'>
           {servicesData.map((item, i) => {
             return (

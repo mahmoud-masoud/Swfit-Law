@@ -10,7 +10,7 @@ const HomeContact = () => {
     >
       <Wrapper>
         <h2
-          className='font-medium text-5xl font-serif w-fit p-4 mb-12
+          className='font-medium text-4xl md:text-5xl font-serif w-fit p-4 mb-12
         text-primary
         '
         >

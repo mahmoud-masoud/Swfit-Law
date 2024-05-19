@@ -36,7 +36,7 @@ const ServiceCard = ({ title, path, description, icon }: Props) => {
 
           <p className='text-white font-medium mb-2'>{description} </p>
 
-          <div className='text-secondary flex gap-2 hover:underline justify-end'>
+          <div className='text-bright-gold flex gap-2 hover:underline justify-end'>
             <span className='font-medium'>read more</span>
             <ArrowIcon />
           </div>

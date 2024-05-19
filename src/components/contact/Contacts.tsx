@@ -9,21 +9,21 @@ const Contacts = () => {
         <div className='flex items-center gap-4'>
           <Phone className='fill-primary border-primary max-md:h-10' />
           <div className=''>
-            <div className='text-secondary mb-2'>Call Us On: </div>
+            <div className='text-bright-gold mb-2'>Call Us On: </div>
             <p className='text-dark'>911-987654321</p>
           </div>
         </div>
         <div className='flex items-center gap-4'>
           <Mail className='fill-primary max-md:h-10' />
           <div className=''>
-            <div className='text-secondary mb-2'>Email Us: </div>
+            <div className='text-bright-gold mb-2'>Email Us: </div>
             <p className='text-dark'>swiftlaw@support.com</p>
           </div>
         </div>
         <div className='flex items-center gap-4'>
           <Office className='fill-primary max-md:h-10' />
           <div className=''>
-            <div className='text-secondary mb-2'>Main Office: </div>
+            <div className='text-bright-gold mb-2'>Main Office: </div>
             <p className='text-dark'>42 Nile Avenue, Sphinx District, Cairo</p>
           </div>
         </div>

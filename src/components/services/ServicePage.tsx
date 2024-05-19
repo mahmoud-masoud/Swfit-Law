@@ -8,7 +8,7 @@ const ServicePage = ({ slug }: { slug: string }) => {
     <section className=' py-10 md:pb-20 relative'>
       <Wrapper className='max-md:p-0'>
         <div className='mb-10 bg-primary text-white px-4 py-8  md:px-8 md:rounded-lg sticky  '>
-          <h1 className='text-4xl md:text-5xl font-serif mb-6 '>
+          <h1 className='text-4xl font-serif mb-6 '>
             {serviceData['service-title']}
           </h1>
           <p className='leading-6'>{serviceData['service-description']}</p>
