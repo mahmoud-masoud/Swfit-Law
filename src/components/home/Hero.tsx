@@ -20,15 +20,12 @@ const Hero = () => {
               className='text-4xl md:text-7xl font-semibold text-white mb-8'
             >
               Your Trusted Legal Partner for{' '}
-              <span className='text-primary bg-white text-3xl md:text-5xl inline-block mt-4'>
-                {' '}
+              <span className='text-primary bg-white text-3xl md:text-5xl inline-block mt-4 mr-2'>
                 Personal
-              </span>{' '}
-              and{'  '}
-              <span className='text-amber-400 inline-block'>
-                {'  '}
-                Business Success
               </span>
+              and{' '}
+              <span className='text-amber-400 inline-block mr-2'>Business</span>
+              <span className='text-amber-400 inline-block'>Success</span>
             </motion.h1>
             <motion.p
               key={'sub title'}
