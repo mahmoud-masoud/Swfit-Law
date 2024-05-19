@@ -24,7 +24,7 @@ const Hero = () => {
                 {' '}
                 Personal
               </span>{' '}
-              and
+              and{'  '}
               <span className='text-amber-400 inline-block'>
                 {'  '}
                 Business Success
@@ -39,7 +39,7 @@ const Hero = () => {
                 type: 'just',
                 delay: 0.2,
               }}
-              className='text-white md:text-lg'
+              className='text-white text-sm sm:text-lg '
             >
               We providing comprehensive legal services tailored to meet the
               unique needs of individuals and businesses. Whether you are
@@ -57,7 +57,8 @@ const Hero = () => {
             >
               <Link
                 href={'contact'}
-                className='px-10 py-2 md:py-3 rounded-md text-white font-medium text-2xl
+                className='px-10 py-2 md:py-3 rounded-md text-white font-medium
+                 text-xl md:text-2xl
               bg-primary hover:bg-secondary/80 duration-200 mt-8 inline-block
               '
               >
