@@ -14,8 +14,8 @@ const Statistics = () => {
             expertise. Let us guide you through every step of the legal process.
           </p>
           <button
-            className='bg-secondary hover:bg-secondary/90 duration-200 px-4 py-2 rounded-lg text-lg
-           font-medium text-white tracking-wide'
+            className='bg-white hover:bg-blue-50 duration-200 px-4 py-2 rounded-lg text-lg
+           font-medium text-primary tracking-wide'
           >
             Book a free consultation
           </button>

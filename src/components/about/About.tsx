@@ -50,7 +50,7 @@ const Story = () => {
           <Image
             src={'/story.webp'}
             height={500}
-            width={550}
+            width={500}
             alt='law building'
           />
         </div>
@@ -60,7 +60,7 @@ const Story = () => {
           <Image
             src={'/office.webp'}
             height={500}
-            width={550}
+            width={500}
             alt='law building'
           />
         </div>
@@ -125,7 +125,13 @@ const TeamMember = ({
 }) => {
   return (
     <div>
-      <Image src={img} height={500} width={400} alt={name + 'photo'} />
+      <Image
+        src={img}
+        height={500}
+        width={400}
+        alt={name + 'photo'}
+        className='rounded-lg'
+      />
       <h3 className='text-2xl font-medium pt-2'>{name}</h3>
       <p className='text-lg'>{title}</p>
     </div>

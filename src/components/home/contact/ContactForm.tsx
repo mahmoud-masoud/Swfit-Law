@@ -49,7 +49,7 @@ const ContactForm = () => {
 
   return (
     <div>
-      <span className='text-secondary inline-block mb-4'>Contact Us</span>
+      <span className='text-primary inline-block mb-4'>Contact Us</span>
       <h2 className='text-3xl font-medium mb-8 text-primary'>
         Reach Out To Us
       </h2>
@@ -119,7 +119,7 @@ const ContactForm = () => {
           </div>
 
           <button
-            className='bg-gradient-to-tr bg-secondary hover:bg-secondary/85 text-white
+            className='bg-gradient-to-tr bg-primary hover:bg-secondary/85 text-white
            py-3 px-6 text-lg rounded-md transition-all duration-300
             hover:bg-gradient-to-br'
           >
