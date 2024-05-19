@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 const Statistics = () => {
   return (
     <section className='bg-primary rounded-xl md:rounded-[40px] px-6 py-8 md:p-14'>
@@ -13,12 +15,13 @@ const Statistics = () => {
             clients. Trust us to handle your legal needs with confidence and
             expertise. Let us guide you through every step of the legal process.
           </p>
-          <button
-            className='bg-white hover:bg-blue-50 duration-200 px-4 py-2 rounded-lg text-lg
+          <Link
+            href={'contact'}
+            className='inline-block text-center bg-white hover:bg-blue-50 duration-200 px-4 py-2 rounded-lg text-lg
            font-medium text-primary tracking-wide'
           >
             Book a free consultation
-          </button>
+          </Link>
         </div>
 
         <div className='relative flex-1 md:max-w-sm flex flex-col justify-between gap-10'>

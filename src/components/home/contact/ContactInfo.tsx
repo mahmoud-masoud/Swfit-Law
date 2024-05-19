@@ -5,7 +5,7 @@ import Phone from '@/assets/icons/Phone';
 const ContactInfo = () => {
   return (
     <div
-      className='flex-1 p-4 
+      className='flex-1 p-4 pl-8 scale-95 md:scale-100 
     md:pl-10 lg:pl-28 relative'
     >
       <Boxes />

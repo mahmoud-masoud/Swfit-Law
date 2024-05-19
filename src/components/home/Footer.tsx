@@ -4,7 +4,7 @@ import Logo from '../ui/Logo';
 
 const quickLinks = [
   { name: 'Services', path: '/services' },
-  { name: 'About', path: '/about' },
+  { name: 'About Us', path: '/about-us' },
   { name: 'Contact Us', path: '/contact' },
   { name: 'Why Us?', path: '/#why' },
   { name: 'Reviews', path: '/reviews' },

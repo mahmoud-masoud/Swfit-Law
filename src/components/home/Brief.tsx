@@ -23,11 +23,11 @@ const Brief = () => {
               relationships.
             </p>
             <Link
-              href={'about'}
-              className='inline-block pt-10 hover:underline
+              href={'about-us'}
+              className='inline-block pt-6 hover:underline
              text-lg text-primary'
             >
-              Read More
+              Read more about us
             </Link>
           </div>
 

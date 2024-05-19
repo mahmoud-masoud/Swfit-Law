@@ -12,8 +12,8 @@ const navLinks = [
     path: '/',
   },
   {
-    name: 'About',
-    path: '/about',
+    name: 'About Us',
+    path: '/about-us',
   },
   {
     name: 'Services',
@@ -35,6 +35,7 @@ const MobileNavbar = () => {
       <nav className='flex justify-between py-2'>
         <Logo />
         <button
+          aria-label='navbar control'
           className='relative z-10 border-2 border-transparent focus:border-blue-400'
           onClick={onClose}
         >

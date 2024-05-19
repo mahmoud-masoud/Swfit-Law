@@ -32,7 +32,7 @@ const Places = () => {
           />
           <PlaceCard
             city='New Jersey'
-            location='95 Third Avenue, 14th Floor New York, NY 10022'
+            location='95 Third Avenue, 14th Floor New Jersey'
             icon={<NewJersey />}
           />
         </div>

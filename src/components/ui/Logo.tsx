@@ -3,7 +3,11 @@ import { twMerge } from 'tailwind-merge';
 
 const Logo = ({ className }: { className?: string }) => {
   return (
-    <Link href={'/'} className='block rounded-full h-10 w-10 font-semibold'>
+    <Link
+      href={'/'}
+      aria-label='back to home page'
+      className='block rounded-full h-10 w-10 font-semibold'
+    >
       <svg
         viewBox='0 0 40 41'
         xmlns='http://www.w3.org/2000/svg'

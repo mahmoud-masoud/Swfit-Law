@@ -35,7 +35,7 @@ const Services = () => {
         <div className='flex justify-end'>
           <Link
             href={'/services'}
-            className='inline-block mt-4 hover:underline text-lg ml-auto'
+            className='inline-block mt-4 hover:underline text-lg ml-auto w-fit'
           >
             View all
           </Link>
