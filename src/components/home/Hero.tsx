@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 const Hero = () => {
   return (
-    <section className='bg-hero bg-cover bg-no-repeat h-[700px]'>
+    <section className='bg-hero bg-black bg-cover bg-no-repeat h-[700px]'>
       <Wrapper>
         <div className='pt-40 flex justify-between gap-6'>
           <div className='lg:w-1/2'>
