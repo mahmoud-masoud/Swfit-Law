@@ -4,7 +4,7 @@ import Wrapper from '../ui/Wrapper';
 
 const ReviewsPage = () => {
   return (
-    <section className='py-12 md:py-20 bg-gray-100'>
+    <section className='py-12 md:py-20 bg-blue-50'>
       <Wrapper>
         <div className='mb-8 md:mb-16 max-w-2xl'>
           <h1 className='text-4xl md:text-5xl font-serif mb-6  text-primary'>

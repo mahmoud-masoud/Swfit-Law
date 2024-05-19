@@ -33,10 +33,10 @@ const Brief = () => {
 
           <Image
             src={'/brief.webp'}
-            width={350}
-            height={350}
+            width={450}
+            height={400}
             alt='Hammer of law'
-            className='rounded-2xl shadow-hammer shadow-secondary h-fit'
+            className='shadow-hammer shadow-secondary'
           />
         </div>
       </Wrapper>

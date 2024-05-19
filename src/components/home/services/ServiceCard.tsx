@@ -13,7 +13,7 @@ const ServiceCard = ({ title, path, description, icon }: Props) => {
     <div className=''>
       <Link href={`services/${path}`}>
         <div
-          className='border-2 border-indigo-200 p-6 md:p-8 rounded-3xl shadow shadow-blue-200
+          className='border-2 border-indigo-200 p-6 md:p-8 py-10 rounded-3xl shadow shadow-blue-200
             
       transition-all duration-200 bg-primary h-full hover:bg-primary/95
       flex flex-col justify-between'
@@ -34,7 +34,7 @@ const ServiceCard = ({ title, path, description, icon }: Props) => {
             </h3>
           </div>
 
-          <p className='text-white font-medium mb-2'>{description} </p>
+          <p className='text-white text-lg mb-2'>{description} </p>
 
           <div className='text-bright-gold flex gap-2 hover:underline justify-end'>
             <span className='font-medium'>read more</span>

@@ -7,7 +7,7 @@ import Family from '@/assets/icons/Family';
 
 const Services = () => {
   return (
-    <section className='bg-light-gold py-10'>
+    <section className='bg-blue-50 py-10'>
       <Wrapper>
         <h2 className='font-serif text-4xl mb-10 text-primary'>
           Our Expertise
@@ -35,7 +35,7 @@ const Services = () => {
         <div className='flex justify-end'>
           <Link
             href={'/services'}
-            className='inline-block mt-4 hover:underline text-lg ml-auto w-fit'
+            className='block mt-4 hover:underline text-lg w-fit'
           >
             View all
           </Link>

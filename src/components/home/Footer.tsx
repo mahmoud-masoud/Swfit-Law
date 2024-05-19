@@ -19,9 +19,12 @@ const Footer = () => {
     <footer className='bg-dark text-blue-50 py-20'>
       <Wrapper>
         <nav className=' flex flex-col md:flex-row gap-12 justify-between '>
-          <span className='text-xl font-semibold'>
-            <Logo className='fill-secondary' />
-          </span>
+          <div className='flex  items-center flex-col gap-2 '>
+            <span className='text-xl font-semibold'>
+              <Logo className='fill-secondary' />
+            </span>
+            <p className='text-lg font-medium'>Swift Law</p>
+          </div>
           <div>
             <div className='mb-4 text-xl'>Quick links</div>
             <ul className='flex gap-2 flex-col'>

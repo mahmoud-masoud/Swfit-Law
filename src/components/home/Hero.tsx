@@ -7,8 +7,8 @@ const Hero = () => {
   return (
     <section className='bg-hero bg-cover bg-no-repeat h-[700px]'>
       <Wrapper>
-        <div className='pt-40 flex justify-between gap-6'>
-          <div className='lg:w-1/2'>
+        <div className='pt-40 flex justify-between gap-6 max-w-screen-lg'>
+          <div className=''>
             <motion.h1
               key={'title'}
               initial={{ opacity: 0, y: -15, x: -50 }}
@@ -17,9 +17,18 @@ const Hero = () => {
                 duration: 0.4,
                 type: 'just',
               }}
-              className='text-4xl md:text-5xl font-semibold text-white mb-8'
+              className='text-4xl md:text-7xl font-semibold text-white mb-8'
             >
-              Your Trusted Legal Partner for Personal and Business Success
+              Your Trusted Legal Partner for{' '}
+              <span className='text-primary bg-white text-3xl md:text-5xl inline-block mt-4'>
+                {' '}
+                Personal
+              </span>{' '}
+              and
+              <span className='text-amber-400 inline-block'>
+                {'  '}
+                Business Success
+              </span>
             </motion.h1>
             <motion.p
               key={'sub title'}
@@ -30,7 +39,7 @@ const Hero = () => {
                 type: 'just',
                 delay: 0.2,
               }}
-              className='text-zinc-200 md:text-lg'
+              className='text-white md:text-lg'
             >
               We providing comprehensive legal services tailored to meet the
               unique needs of individuals and businesses. Whether you are
@@ -48,43 +57,13 @@ const Hero = () => {
             >
               <Link
                 href={'contact'}
-                className='px-10 py-2.5 rounded-md text-white font-medium text-xl
+                className='px-10 py-2 md:py-3 rounded-md text-white font-medium text-2xl
               bg-primary hover:bg-secondary/80 duration-200 mt-8 inline-block
               '
               >
                 Free Consultation
               </Link>
             </motion.div>
-          </div>
-          <div
-            className='bg-black/30 flex items-center h-fit
-           flex-col max-lg:hidden'
-          >
-            <div className='flex flex-col items-center mb-10'>
-              <div
-                className='text-8xl text-bright-gold font-bold inline-block mb-4
-            '
-              >
-                +500
-              </div>
-              <p className=' text-3xl text-white font-semibold '>Clients</p>
-            </div>
-            <div className='flex justify-between gap-6'>
-              <div className='text-center flex flex-col items-center gap-2 '>
-                <div className='text-6xl font-medium text-bright-gold mb-2'>
-                  20
-                </div>
-                <p className='text-2xl text-white font-semibold'>Countries</p>
-              </div>
-              <div className='text-center flex flex-col items-center gap-2 '>
-                <div className='text-6xl font-medium text-bright-gold mb-2'>
-                  97%
-                </div>
-                <p className='text-2xl text-white font-semibold'>
-                  Success rate
-                </p>
-              </div>
-            </div>
           </div>
         </div>
       </Wrapper>

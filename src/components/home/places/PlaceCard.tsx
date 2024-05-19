@@ -9,10 +9,8 @@ type Props = {
 const PlaceCard = ({ city, location, icon }: Props) => {
   return (
     <div
-      className='flex flex-col text-center p-10 items-center justify-center
-      border-blue-100
+      className='flex flex-col text-center p-10 items-center justify-center border shadow  shadow-blue-200
       rounded-3xl
-      shadow-sm border
     '
     >
       {icon}

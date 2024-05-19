@@ -27,7 +27,7 @@ const Statistics = () => {
         <div className='relative flex-1 md:max-w-sm flex flex-col justify-between gap-10'>
           <span className='absolute w-full h-[.7px] bg-slate-400/50 top-1/2'></span>
           <div>
-            <span className='text-4xl font-bold text-bright-gold mb-4 inline-block'>
+            <span className='text-4xl md:text-5xl font-bold text-bright-gold mb-5 inline-block'>
               +10
             </span>
             <p className='text-white'>
@@ -36,7 +36,7 @@ const Statistics = () => {
             </p>
           </div>
           <div>
-            <span className='text-4xl font-bold text-bright-gold mb-4 inline-block'>
+            <span className='text-4xl md:text-5xl font-bold text-bright-gold mb-5 inline-block'>
               +500
             </span>
             <p className='text-white'>

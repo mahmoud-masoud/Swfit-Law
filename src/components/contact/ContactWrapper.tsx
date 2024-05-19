@@ -9,11 +9,12 @@ const ContactWrapper = () => {
     <section className=''>
       <TopRow />
       <Wrapper className='py-20'>
-        <div className='flex flex-col md:flex-row-reverse gap-10 md:gap-20 mb-20'>
-          <Location />
+        <div className='flex flex-col md:flex-row gap-10 md:gap-20 mb-20'>
           <div className='w-full md:w-1/2 md:border md:shadow-sm rounded-lg md:p-8'>
             <ContactForm />
           </div>
+
+          <Location />
         </div>
         <Contacts />
       </Wrapper>
